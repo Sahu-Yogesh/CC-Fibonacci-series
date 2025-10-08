@@ -1,0 +1,12 @@
+steps:
+  - name: 'python:3.11'
+    entrypoint: 'bash'
+    args:
+      - '-c'
+      - 'python Main1.py 12'
+  - name: 'python:3.11'
+    entrypoint: 'bash'
+    args:
+      - '-c'
+      - 'python Test.py'
+timeout: '1200s'
